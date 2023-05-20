@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Transactions;
 using Biblioteca;
 
 namespace Consola
@@ -20,6 +21,8 @@ namespace Consola
                 Console.WriteLine("ES true");
             }
             Console.WriteLine($"suma de objetos {sum + sum2}");
+
+            //CommittableTransaction 2
         }
     }
 }
